@@ -1,0 +1,304 @@
+/*Navigation bar*/
+.NaviBar
+{
+    left: 100px;
+    width: 100%;
+    font-size: 15px;
+    overflow: auto;
+    padding: 0;
+    background-color: #8f7c5a;
+}
+.NaviBar button img{
+  width:30px;
+  height: 25px;
+}
+/*Buttons*/
+.List
+{
+    padding: 0;
+    border: none;
+    background: none;
+    color:white;
+    background-color: #8f7c5a;
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+/*NaviBar hover*/
+.NaviBar button:hover
+{
+    background-color: #8f7c5a;
+    transition: all .6s ease;
+}
+.NaviBar a:hover
+	{
+		background-color: #9c865f;
+		transition: all .6s ease;
+		text-decoration: none;
+	}
+    /*search bar*/
+	.SearchBar
+	{
+		margin-top: 5px;
+		margin-left: 90px;
+		padding: 8px;
+		border: 1px solid #ccc;
+		border-radius: 30px;
+		outline: none;
+	}
+	
+	.SearchBar:focus
+	{
+		border: 2px solid #9c865f;
+		transition: all .1s ease;
+	}
+
+.SearchBar2{
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 50px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+}
+.container {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.last{
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.filter-bar{
+   
+    margin-right: 10px;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-left: 30px;
+}
+.product-card {
+    width: 300px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.product-card p {
+    margin-top: -30px;
+    font-weight: bold;
+}
+.filter-group {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+}
+
+input[type="number"] {
+    width: 70px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    /* Style the dropdown button */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+  
+      /* Style the dropdown content (hidden by default) */
+      .dropdown-content {
+        display: none;
+        position: fixed;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+        z-index: 1;
+      }
+  
+      /* Style the links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+  
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+  
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .price {
+        margin: 10px;
+        color: rgb(75, 74, 74);
+        font-size: 15px;
+      }
+      /* style for add to cart buttons */
+  .product-card button {
+    border-radius:3px;
+    margin-left: 17px;
+    border: none;
+    padding: 5px;
+    color:white;
+    background-color:  black;
+    text-align: right;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .product-card button:hover {
+    opacity: 0.5;
+  }
+
+/* square containers */
+.cont1{
+    border-radius:5px;
+    background-color:#e0e2e3;
+    display: flex;
+    max-width: 50%;
+    height:auto;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .cont2{
+    border-radius:5px;
+    background-color:#66FCF1;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .cont3{
+    font-family: arial;
+    align-items: center;
+    border-radius:5px;
+    background-color:#66FCF1;
+    display: flex;
+    max-width: 50%;
+    height:50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cont3 p{
+    padding-left: 230px;
+    font-family: arial;
+    font-size: 25px;
+    color: black;
+  }
+
+  .cont4{
+    margin-top: 3px;
+    font-family: arial;
+    text-align: center;
+    align-items: center;
+    border-radius:5px;
+    background-color:#e0e2e3;
+    display: flex;
+    max-width: 50%;
+    height:50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cont5{
+    border-radius:  5px;
+    border:10px solid white ;
+    background-color:#c7cece;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  /* style for details that were accessed */
+  #checkoutTotal,#cardHolderName,#email,#editAddress,#editCode,#editCountry{
+    color:rgb(22, 22, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* style for the input boxes */
+  .last input[type=text],.last input[type=email], .last input[type=password],.last input[type=date],.last textarea{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(22, 22, 61);
+  } 
+/* stylefor buttons */
+   .last button, .last button[type=submit] {
+    margin-bottom: 10px;
+    border:none;
+    padding: 5px;
+    color:white;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color:black;
+    text-align: center;
+    font-size: 13px;
+  }
+ .last button:hover{
+    opacity: 0.5;
+  }
+  /* style for pop up form (https://www.w3docs.com/snippets/javascript/how-to-create-a-popup-form-using-javascript.html) */
+  .formPopup {
+    border-radius:5px;
+    background-color:white;
+    width: 700px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: arial;
+
+    display: none;
+    position:fixed ;
+    left: 50%;
+    top: 2.5%;
+    transform: translate(-50%, 5%);
+    z-index: 9;
+  }
+
+  h4{
+    color:#45A29E;
+  }
